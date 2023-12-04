@@ -12,9 +12,9 @@ const AuthGoogle = () => {
   const [googleRequest, googleResponse, googlePromptAsync] =
     Google.useAuthRequest({
       androidClientId:
-        "169629215319-caqlqal43t3uoodqjf3br3qfre77315g.apps.googleusercontent.com",
+        "",
       iosClientId:
-        "169629215319-4v61conj80flfkkkb6irngcctechgcg7.apps.googleusercontent.com",
+        "",
       redirectUri: makeRedirectUri({ useProxy: true }, { useProxy: true }),
     });
 
